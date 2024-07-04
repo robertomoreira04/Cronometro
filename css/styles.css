@@ -11,12 +11,15 @@
   align-items: center;
   gap: 2rem;
   padding-top: 3rem;
-  background-color: #f1f1f1;
+  background-color: rgba(0, 0, 0, 0.787);
   height: 100vh;
 }
 
 .container h1 {
-  color: #175cff;
+  color: #ab0404;
+  background-color: black;
+  padding: 2px;
+  border-radius: 10px;
 }
 
 .timer {
@@ -24,7 +27,7 @@
   
   font-size: 55px;
   font-weight: bold;
-  color: #333;
+  color: #ffffff;
 }
 
 .time {
@@ -32,18 +35,18 @@
   align-items: center;
   justify-content: center;
   margin-right: 10px;
-  color: #172953;
+  color: white;
   min-width: 90px;
 }
 
 .separator {
   padding: 0 10px;
-  color: #525763;
+  color: #ffffff;
 }
 
 #milliseconds {
   font-size: 30px;
-  color: #525763;
+  color: #ffffff;
 }
 
 .buttons {
@@ -66,10 +69,11 @@
 }
 
 #startBtn {
-  background-color: #175cff;
-  color: #fff;
+  background-color: #ab0404;
+  color: black;
 }
 
 #pauseBtn, #resumeBtn {
   display: none;
 }
+
