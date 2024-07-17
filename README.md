@@ -1,2 +1,1 @@
-# Cronometro
- Criei um cronômetro com HTML,CSS e Javascript
+Criei um cronômetro básico com HTML, CSS e Javascript.
